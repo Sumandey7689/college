@@ -1,0 +1,505 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Welcome to iCoder. A blog for coding enthusiasts">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+
+    <style type="text/css">
+        .navbar-nav>li>.dropdown-menu a:link,
+        .navbar-nav>li>.dropdown-menu a:hover {
+            background-color: #0a0132;
+        }
+    </style>
+
+    <title>Berhampore Polytechnic College</title>
+</head>
+
+<body>
+
+    <!-- Header Part -->
+
+    <header class="header-section">
+        <div class="container">
+            <!-- logo -->
+            <center>
+                <a href="#" class="site-logo"><img src="/image/logo.png" alt=""></a>
+                <a href="#"><span
+                        style="padding:8px 10px; margin-left:100px; border-radius:6px; font-size:12px; background:#154ba1; color:#fff; display:inline-block; animation:admission 4s linear infinite;"
+                        target="_blank">ONLINE ADMISSION 2022-23</span>
+                </a>
+            </center>
+
+        </div>
+    </header>
+
+    <style>
+        @keyframes admission {
+            0% {
+                background: #154ba1;
+                box-shadow: 0 0 10px #154ba1;
+            }
+
+            25% {
+                background: #16a020;
+                box-shadow: 0 0 10px #16a020;
+            }
+
+            50% {
+                background: #13a58b;
+                box-shadow: 0 0 10px #13a58b;
+            }
+
+            75% {
+                background: #5f13a5;
+                box-shadow: 0 0 10px #5f13a5;
+            }
+
+            100% {
+                background: #a01675;
+                box-shadow: 0 0 10px #a01675;
+            }
+        }
+    </style>
+
+    <!-- Navbar Part -->
+    <nav class="navbar navbar-expand-lg navbar navbar navbar navbar-light" style="background-color: #0a0132;">
+
+        <span class="navbar-text-white">
+            <a class="navbar-brand" href="#">
+                <img src="/image/clg_logo.png" width="35" height="35" class="d-inline-block align-top" alt="">
+                <span class="text-white">Berhampore Polytechnic College</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </span>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#"><span class="text-white" style="margin-left:10px;">HOME</span></a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <span class="text-white">COURSE</span>
+                    </a>
+                    <div class="dropdown-menu" class="navbar navbar-light" style="background-color: #0a0132;"
+                        aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#"><span style="margin-right:10px" class="text-white">Computer
+                                Science &
+                                Technolog</span></a>
+                        <a class="dropdown-item" href="#"><span style="margin-right:10px" class="text-white">Elctronics
+                                &
+                                Telecommunication</span></a>
+                        <a class="dropdown-item" href="#"><span style="margin-right:10px" class="text-white">Electrical
+                                Engineering</span></a>
+                        <a class="dropdown-item" href="#"><span style="margin-right:10px" class="text-white">Mechanical
+                                Engineering</span></a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#"><span style="margin-right:10px" class="text-white">Civil
+                                Engineering</span></a>
+                    </div>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><span class="text-white">GALLERY</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><span class="text-white">ADMISSION</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><span class="text-white">ABOUT US</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><span class="text-white">CONTACT US</span></a>
+                </li>
+            </ul>
+
+            <div class="mx-2">
+                <button class="get-started-btn btn btn-primary" data-toggle="modal"
+                    data-target="#loginModal">Login</button>
+                <button class="get-started-btn btn btn-primary" data-toggle="modal"
+                    data-target="#signupModal">SignUp</button>
+            </div>
+
+        </div>
+
+    </nav>
+
+    <!-- Login Modal -->
+    <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="section-front modal-title" id="exampleModalLabel">Login to User Pannel</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="color-front form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                placeholder="Enter Your Email" aria-describedby="emailHelp">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                                else.</small>
+                        </div>
+                        <div class="color-front form-group">
+                            <label for="exampleInputPassword1">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <button type="submit" class="get-btn-runded btn btn-primary">Login</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Sign Up Modal -->
+    <div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-labelledby="signupModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="section-front modal-title" id="exampleModalLabel">Create a New Account</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="color-front mb-3">
+                            <label for="name" class="form-label">Full Name</label>
+                            <input type="text" class="form-control" id="inputname" placeholder="Enter Your Full Name">
+                        </div>
+                        <div class="color-front form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                placeholder="Enter Your Email" aria-describedby="emailHelp">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                                else.</small>
+                        </div>
+                        <div class="color-front form-group">
+                            <label for="exampleInputPassword1">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="color-front form-group">
+                            <label for="cexampleInputPassword1">Confirm Password</label>
+                            <input type="password" class="form-control" id="cexampleInputPassword1">
+                        </div>
+                        <button type="submit" class="get-btn-runded btn btn-primary">Creat Account</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slider Part -->
+    <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="image/clg3.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2>OUR COURSES</h2>
+                    <p>Building a better world, one course at a time</p>
+                    <button class="get-btn-master1">VIEW MARKS</button>
+                    <button class="get-btn-master2">VIEW GALLERY</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="image/clg2.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2>OUR COURSES</h2>
+                    <p>Building a better world, one course at a time</p>
+                    <button class="get-btn-master1">VIEW MARKS</button>
+                    <button class="get-btn-master2">VIEW GALLERY</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="image/clg1.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2>OUR COURSES</h2>
+                    <p>Building a better world, one course at a time</p>
+                    <button class="get-btn-master1">VIEW MARKS</button>
+                    <button class="get-btn-master2">VIEW GALLERY</button>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <!-- Course Part -->
+    <section class="courses-section spad">
+        <div class="container">
+            <div class="section-title text-center">
+                <h3>OUR COURSES</h3>
+            </div>
+            <div class="section-title">
+                <h2>Courses</h2>
+                <p>Popular Courses</p>
+            </div>
+            <div class="row">
+
+                <!-- course item -->
+                <div class="col-lg-4 col-md-6 course-item wow fadeInLeft  animated"
+                    style="visibility: visible; animation-name: fadeInLeft;">
+                    <div class="course-thumb">
+                        <img src="assets/img/index_course3.png" alt="">
+                        <div class="course-cat">
+                            <span>COMPUTER SCIENCE &amp; TECHNOLOGY</span>
+                        </div>
+                    </div>
+                    <div class="course-info">
+                        <div class="date"><i class="fa fa-clock-o"></i> Duration: 3 Years</div>
+                    </div>
+                </div>
+
+                <!-- course item -->
+                <div class="col-lg-4 col-md-6 course-item wow fadeInRight  animated"
+                    style="visibility: visible; animation-name: fadeInRight;">
+                    <div class="course-thumb">
+                        <img src="assets/img/index_course2.png" alt="">
+                        <div class="course-cat">
+                            <span>ELCTRONICS &amp; TELECOMMUNICATION</span>
+                        </div>
+                    </div>
+                    <div class="course-info">
+                        <div class="date"><i class="fa fa-clock-o"></i> Duration: 3 Years</div>
+                    </div>
+                </div>
+
+                <!-- course item -->
+                <div class="col-lg-4 col-md-6 course-item wow fadeInRight" style="visibility: visible;">
+                    <div class="course-thumb">
+                        <img src="assets/img/index_course4.png" alt="">
+                        <div class="course-cat">
+                            <span>ELECTRICAL ENGINEERING</span>
+                        </div>
+                    </div>
+                    <div class="course-info">
+                        <div class="date"><i class="fa fa-clock-o"></i> Duration: 3 Years</div>
+                    </div>
+                </div>
+
+                <!-- course item -->
+                <div class="col-lg-4 col-md-6 course-item wow fadeInLeft" style="visibility: visible;">
+                    <div class="course-thumb">
+                        <img src="assets/img/index_course5.png" alt="">
+                        <div class="course-cat">
+                            <span>MECHANICAL ENGINEERING</span>
+                        </div>
+                    </div>
+                    <div class="course-info">
+                        <div class="date"><i class="fa fa-clock-o"></i> Duration: 3 Years</div>
+                    </div>
+                </div>
+
+                <!-- course item -->
+                <div class="col-lg-4 col-md-6 course-item wow fadeInRight" style="visibility: visible;">
+                    <div class="course-thumb">
+                        <img src="assets/img/index_course6.png" alt="">
+                        <div class="course-cat">
+                            <span>CIVIL ENGINEERING</span>
+                        </div>
+                    </div>
+                    <div class="course-info">
+                        <div class="date"><i class="fa fa-clock-o"></i> Duration: 3 Years</div>
+                    </div>
+                </div>
+
+                <!-- course item -->
+                <div class="col-lg-4 col-md-6 course-item wow fadeInRight  animated"
+                    style="visibility: visible; animation-name: fadeInRight;">
+                    <div class="course-thumb">
+                        <img src="assets/img/index_course1.png" alt="">
+                        <div class="course-cat">
+                            <span>Coming Soon</span>
+                        </div>
+                    </div>
+                    <div class="course-info">
+                        <div class="date"><i class="fa fa-clock-o"></i> Duration: 3 Years</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Part -->
+    <div class="container services">
+        <div class="section-title text-center">
+            <h3>OUR FACILITIES</h3>
+            <p1>We provides the opportunity to prepare for life</p1>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-sm-6 service-item wow fadeInLeft" style="visibility: visible;">
+                <div class="service-icon">
+                    <img src="assets/service_icons/1.png" alt="1">
+                </div>
+                <div class="service-content">
+                    <h4>Sports, Culture</h4>
+                    <p>Nourishing recreational talents in the fields of sports, culture etc</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 service-item wow fadeInRight" style="visibility: visible;">
+                <div class="service-icon">
+                    <img src="assets/service_icons/2.png" alt="1">
+                </div>
+                <div class="service-content">
+                    <h4>College Hostel</h4>
+                    <p>College Hostel (Boys &amp; Girls Available)</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 service-item wow fadeInLeft" style="visibility: visible;">
+                <div class="service-icon">
+                    <img src="assets/service_icons/3.png" alt="1">
+                </div>
+                <div class="service-content">
+                    <h4>Medical Assistance</h4>
+                    <p>24x7 medical assistance for students.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 service-item wow fadeInRight" style="visibility: visible;">
+                <div class="service-icon">
+                    <img src="assets/service_icons/4.png" alt="1">
+                </div>
+                <div class="service-content">
+                    <h4>Placement Assistant</h4>
+                    <p>BPC will provide 100% placement assistant</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 service-item wow fadeInLeft" style="visibility: visible;">
+                <div class="service-icon">
+                    <img src="assets/service_icons/5.png" alt="1">
+                </div>
+                <div class="service-content">
+                    <h4>Industrial Training</h4>
+                    <p>Exclusive industrial training for 2nd year and 3rd year students</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 service-item wow fadeInRight" style="visibility: visible;">
+                <div class="service-icon">
+                    <img src="assets/service_icons/6.png" alt="1">
+                </div>
+                <div class="service-content">
+                    <h4>Drinking Water</h4>
+                    <p>Purified cool drinking water plant</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Part -->
+    <footer id="footer">
+
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-3 col-md-6 footer-contact">
+                        <div class="about-widget">
+                            <img src="image/footer.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 footer-contact">
+                        <h3>Mentor</h3>
+                        <p>
+                            3/20 Girija Para Lane, Khagra,<br>Berhampore<br>
+                            <strong>Phone :</strong> Coming Soon<br>
+                            <strong>Email :</strong> Coming Soon<br>
+                        </p>
+                    </div>
+
+                    <div class="col-lg-2 col-md-6 footer-links">
+                        <h4>Useful Links</h4>
+                        <ul>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">ABOUT US</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">GALLERY</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">COURSE</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">CONTACT US</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <h4>Our Course</h4>
+                        <ul>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Computer
+                                    Science &
+                                    Technolog</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Elctronics
+                                    &
+                                    Telecommunication</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Electrical
+                                    Engineering</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">MMechanical
+                                    Engineering</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Civil
+                                    Engineering</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="me-md-auto text-center text-md-start">
+                    <div class="copyright">
+                        &copy; Copyright <strong><span>©</span></strong>. All Rights Reserved
+                    </div>
+                    <div class="credits">
+                        Designed by <a href="#">CST 4th Sem Students</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer><!-- End Footer -->
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
